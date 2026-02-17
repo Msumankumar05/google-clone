@@ -1,22 +1,61 @@
 <!DOCTYPE html>
-
-
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <title>Google</title>
     <link rel="stylesheet" href="style.css">
-    <title>google</title>
 </head>
 
 <body>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Google_Images_2015_logo.svg/1280px-Google_Images_2015_logo.svg.png"
-        width="50%" />
-    <div class="search-box">
 
-        <form action="https://www.google.com/search" method="get">
-            <input type="text" name="q" placeholder="search google" />
-            <button type="submit">google search</button>
-        </form>
-        <button>I'm feeling <a href="https://doodles.google/" target="_blank">lucky</a></button>
+<header>
+    <nav>
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+    </nav>
+</header>
 
-        <p>we protect you privacy <a href="https://policies.google.com/privacy" target="_blank">learn how</a></p>
+<main>
+    <img
+        src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+        alt="Google Logo"
+        class="logo"
+    />
+
+    <form action="https://www.google.com/search" method="get" onsubmit="return validateSearch()">
+        <div class="search-container">
+            <input
+                type="text"
+                name="q"
+                id="searchInput"
+                placeholder="Search Google or type a URL"
+                autofocus
+            />
+        </div>
+
+        <div class="buttons">
+            <button type="submit">Google Search</button>
+            <a
+                href="https://doodles.google/"
+                target="_blank"
+                class="btn"
+            >I'm Feeling Lucky</a>
+        </div>
+    </form>
+</main>
+
+<footer>
+    <p>India</p>
+    <div class="footer-links">
+        <a href="#">About</a>
+        <a href="#">Advertising</a>
+        <a href="#">Business</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Settings</a>
     </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
+</html>
