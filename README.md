@@ -6,7 +6,7 @@ This project was created to practice frontend fundamentals and understand real-w
 ---
 
 ## 🚀 Live Demo
-👉 https://msumankumar05.github.io/google-clone/#
+👉  https://msumankumar05.github.io/google-clone/
 
 ---
 
