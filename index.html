@@ -2,7 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Google</title>
+
+    <title>Search Page Clone | Educational Project</title>
+
+    <meta name="description" content="A Google-style search page clone built for educational purposes using HTML, CSS, and JavaScript.">
+    <meta name="robots" content="index, follow">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -10,17 +15,15 @@
 
 <header>
     <nav>
-        <a href="#">Gmail</a>
+        <a href="#">Mail</a>
         <a href="#">Images</a>
     </nav>
 </header>
 
 <main>
-    <img
-        src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
-        alt="Google Logo"
-        class="logo"
-    />
+
+    <!-- TEXT LOGO (SAFE) -->
+    <h1 class="text-logo">Search<span>Clone</span></h1>
 
     <form action="https://www.google.com/search" method="get" onsubmit="return validateSearch()">
         <div class="search-container">
@@ -28,32 +31,34 @@
                 type="text"
                 name="q"
                 id="searchInput"
-                placeholder="Search Google or type a URL"
+                placeholder="Search or type a query"
                 autofocus
             />
         </div>
-        <p class="disclaimer">
-  This is a personal educational project and is not affiliated with Google.
-</p>
 
+        <p class="disclaimer">
+            This is a personal educational project and is not affiliated with Google.
+        </p>
 
         <div class="buttons">
-            <button type="submit">Google Search</button>
+            <button type="submit">Search</button>
             <a
                 href="https://doodles.google/"
                 target="_blank"
+                rel="noopener noreferrer"
                 class="btn"
-            >I'm Feeling Lucky</a>
+            >
+                I'm Feeling Lucky
+            </a>
         </div>
     </form>
+
 </main>
 
 <footer>
     <p>India</p>
     <div class="footer-links">
         <a href="#">About</a>
-        <a href="#">Advertising</a>
-        <a href="#">Business</a>
         <a href="#">Privacy</a>
         <a href="#">Terms</a>
         <a href="#">Settings</a>
@@ -63,4 +68,3 @@
 <script src="script.js"></script>
 </body>
 </html>
-
