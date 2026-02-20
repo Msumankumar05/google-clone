@@ -46,7 +46,7 @@ google-clone/
 ---
 
 ## 📸 Preview
-<img width="371" height="275" alt="Screenshot 2026-02-17 120403" src="https://github.com/user-attachments/assets/577d51f2-130f-441e-9415-9c6a9684aee1" />
+
 
 
 ---
